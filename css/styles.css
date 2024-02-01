@@ -57,3 +57,45 @@ p {
     font-size: 1.3rem;
   }
 }
+
+/* Buttons */
+a {
+  text-decoration: none;
+}
+
+.btn {
+  border: 0;
+  border-radius: 30px;
+  padding: 1rem 5rem;
+  white-space: nowrap;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn--primary {
+  background: hsl(171 66% 44%);
+  color: #fff;
+  box-shadow: 0 5px 25px 3px hsla(171 66% 44% / 0.2);
+  transition: background 0.3s;
+}
+
+.btn--primary:hover {
+  background: hsl(171 66% 54%);
+}
+
+.btn--secondary {
+  background: hsl(233, 100%, 69%);
+  color: #fff;
+  box-shadow: 0 5px 25px 3px hsla(233 100% 69% / 0.2);
+  transition: background 0.3s;
+}
+
+.btn--secondary:hover {
+  background: hsl(233 100% 75%);
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    padding: 1rem 3rem;
+  }
+}
