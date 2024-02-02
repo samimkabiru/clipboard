@@ -123,11 +123,12 @@ a {
   }
 
   .grid--1x3 {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 
   .grid--1x5 {
-    grid-template-columns: repeat(5, 1fr);
+    /* TODO: use auto fit and the minmax property instead of hardcoating the values */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 }
 
@@ -135,4 +136,27 @@ a {
 .icon {
   width: 30px;
   height: 30px;
+}
+
+/* Blocks */
+.block {
+  padding: 5rem 2rem;
+}
+
+.block__header {
+  text-align: center;
+}
+
+.block--ash {
+  background: hsl(201, 11%, 94%);
+}
+
+.block--ash a {
+  color: hsl(210, 10%, 33%);
+  font-size: 2rem;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
