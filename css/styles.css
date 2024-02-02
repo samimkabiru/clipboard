@@ -160,3 +160,9 @@ a {
   max-width: 1140px;
   margin: 0 auto;
 }
+
+/* Lists */
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
