@@ -134,6 +134,11 @@ a {
 
 /* Icons */
 .icon {
+  width: 64px;
+  height: 64px;
+}
+
+.icon--small {
   width: 30px;
   height: 30px;
 }
