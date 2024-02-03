@@ -166,7 +166,7 @@ a {
 
 .block--ash a {
   color: hsl(210, 10%, 33%);
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .container {
@@ -178,6 +178,7 @@ a {
 .list {
   list-style-type: none;
   padding-left: 0;
+  margin: 0;
 }
 
 /* Hero */
@@ -295,5 +296,41 @@ a {
     grid-template-columns: 1fr 1fr;
     display: grid;
     gap: 0 1rem;
+  }
+}
+
+/* Footer */
+.footer {
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+}
+
+.footer a {
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: hsl(201, 11%, 66%);
+}
+
+.footer__info {
+  margin: 1rem;
+  display: grid;
+}
+
+.footer__info li {
+  margin: 1rem 0;
+}
+
+.footer__icon:nth-of-type(2) {
+  margin: 0 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__info {
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: start;
+    align-items: start;
   }
 }
