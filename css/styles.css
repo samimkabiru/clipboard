@@ -206,7 +206,7 @@ a {
 
 .hero__content {
   max-width: 400px;
-  margin: 0 auto;
+  margin: 3.5rem auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -282,4 +282,18 @@ a {
 .sponsor__content {
   justify-items: center;
   row-gap: 5.5rem;
+}
+
+/* Callout */
+.callout__content {
+  max-width: 400px;
+  margin: 3.5rem auto;
+}
+
+@media screen and (min-width: 768px) {
+  .callout__content {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 0 1rem;
+  }
 }
