@@ -233,10 +233,6 @@ a {
 }
 
 /* Showcase Block */
-.block-showcase .grid {
-  gap: 3rem;
-}
-
 .block-showcase__image {
   width: 100%;
 }
@@ -248,10 +244,11 @@ a {
 .block-showcase__text {
   text-align: center;
   align-self: center;
+  margin-left: 3rem;
 }
 
 .block-showcase__text li {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -263,6 +260,6 @@ a {
     width: auto;
     max-width: 700px;
     justify-self: end;
-    max-height: 450px;
+    max-height: 500px;
   }
 }
