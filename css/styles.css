@@ -272,3 +272,8 @@ a {
 .feature__header {
   margin-bottom: 5rem;
 }
+
+/* Utility block */
+.utility__media {
+  margin-bottom: 3.5rem;
+}
