@@ -263,3 +263,12 @@ a {
     max-height: 500px;
   }
 }
+
+/* Features Block */
+.feature__image {
+  width: 100%;
+}
+
+.feature__header {
+  margin-bottom: 5rem;
+}
