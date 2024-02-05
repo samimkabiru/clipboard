@@ -184,6 +184,7 @@ a {
 /* Hero */
 .hero {
   position: relative;
+  perspective: 100px;
 }
 
 .hero__image-mobile {
@@ -194,6 +195,11 @@ a {
   left: 0;
   width: 100%;
   object-fit: cover;
+}
+
+.hero__image-mobile,
+.hero__image-desktop {
+  z-index: -1;
 }
 
 .hero__image-desktop {
